@@ -1,4 +1,3 @@
-package appli_poo;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -48,7 +47,7 @@ public class paneau_confg extends JFrame {
 		contentPane.setLayout(null);
 		
 		JButton btn_gerer_agent = new JButton("Gerer agent");
-		btn_gerer_agent.setBackground(new Color(255, 128, 64));
+		btn_gerer_agent.setBackground(new Color(255, 255, 255));
 		btn_gerer_agent.setForeground(new Color(0, 0, 0));
 		btn_gerer_agent.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -63,7 +62,7 @@ public class paneau_confg extends JFrame {
 		contentPane.add(btn_gerer_agent);
 		
 		JButton btn_gerer_immobilier = new JButton("Gerer immobilier");
-		btn_gerer_immobilier.setBackground(new Color(255, 128, 64));
+		btn_gerer_immobilier.setBackground(new Color(255, 255, 255));
 		btn_gerer_immobilier.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -78,7 +77,7 @@ public class paneau_confg extends JFrame {
 		contentPane.add(btn_gerer_immobilier);
 		
 		JButton btn_gerer_client = new JButton("Gerer client");
-		btn_gerer_client.setBackground(new Color(255, 128, 64));
+		btn_gerer_client.setBackground(new Color(255, 255, 255));
 		btn_gerer_client.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Gerer_Client gc=new Gerer_Client();
@@ -90,7 +89,7 @@ public class paneau_confg extends JFrame {
 		contentPane.add(btn_gerer_client);
 		
 		JButton btn_gerer_rendez_vous = new JButton("Gerer rendez-vous");
-		btn_gerer_rendez_vous.setBackground(new Color(255, 128, 64));
+		btn_gerer_rendez_vous.setBackground(new Color(255, 255, 255));
 		btn_gerer_rendez_vous.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Gerer_Rdv gr=new Gerer_Rdv();
@@ -103,7 +102,7 @@ public class paneau_confg extends JFrame {
 		contentPane.add(btn_gerer_rendez_vous);
 		
 		JButton btn_gerer_transaction = new JButton("Gerer transaction");
-		btn_gerer_transaction.setBackground(new Color(255, 128, 64));
+		btn_gerer_transaction.setBackground(new Color(255, 255, 255));
 		btn_gerer_transaction.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Gerer_Transaction gt=new Gerer_Transaction();
@@ -116,7 +115,7 @@ public class paneau_confg extends JFrame {
 		contentPane.add(btn_gerer_transaction);
 		
 		JButton btn_exit = new JButton("Exit");
-		btn_exit.setBackground(new Color(255, 255, 255));
+		btn_exit.setBackground(new Color(255, 255, 128));
 		btn_exit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				dispose();
