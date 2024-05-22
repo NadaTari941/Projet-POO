@@ -1,4 +1,5 @@
-Fonctionnalités : 
+Fonctionnalités :
+
 1-	Gérer les agents de l’agence (modification, ajoute, suppression) 
 
 2-	Gérer les clients de l’agence (modification, addition, suppression) 
